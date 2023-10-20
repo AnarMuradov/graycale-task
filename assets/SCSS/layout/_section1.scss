@@ -1,0 +1,35 @@
+#bwb5{
+    .bwb5-container{
+        height: 720px;  
+        width: 100%;
+        padding-top: 160px;
+        background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .bwb5-name{
+            color: white;
+            font-size: 24px;
+            margin-bottom: 24px;
+            h2{
+                font-weight:400;
+                
+            }
+        }
+        .bwb5-info{
+            color: rgba(255, 255, 255, 0.5);
+             width: 700px;
+             text-align: center;
+             margin-bottom: 80px;
+
+        }
+        .bwb5-img{
+            max-width: 64%;
+            height: auto;
+            img{
+                vertical-align: middle;
+            }
+        }
+    }
+}

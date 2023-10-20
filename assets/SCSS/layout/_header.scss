@@ -1,0 +1,81 @@
+.header {
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000 100%
+    ),
+    url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  .header-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+    color: #ffffff80;
+    cursor: pointer;
+    .header-nav-items {
+      ul {
+        display: flex;
+        gap: 30px;
+        li:hover{
+          color: #fff;
+        }
+      }
+      
+    }
+  }
+  .header-sct {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .h1 {
+      font-size: 104px;
+      text-transform: uppercase;
+      background: linear-gradient(
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0)
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+      letter-spacing: 16px;
+    }
+    .header-info {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 20px;
+      h3 {
+        font-weight: 100;
+        width: 450px;
+        margin-bottom: 48px;
+      }
+    }
+    .header-a{
+      width: 178px;
+      height: 60px;
+      background-color: #64a19d;
+      text-align: center;
+      line-height: 60px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 200ms;
+      a{
+        color: white;
+        letter-spacing: 4px;
+        font-size: 13px;
+      }
+      
+    }
+    .header-a:hover{
+      background-color: #558985;
+    }
+  }
+}

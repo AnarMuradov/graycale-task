@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.header {
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.header .header-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 72px;
+  color: rgba(255, 255, 255, 0.5019607843);
+  cursor: pointer;
+}
+.header .header-nav .header-nav-items ul {
+  display: flex;
+  gap: 30px;
+}
+.header .header-nav .header-nav-items ul li:hover {
+  color: #fff;
+}
+.header .header-sct {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header .header-sct .h1 {
+  font-size: 104px;
+  text-transform: uppercase;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  letter-spacing: 16px;
+}
+.header .header-sct .header-info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+}
+.header .header-sct .header-info h3 {
+  font-weight: 100;
+  width: 450px;
+  margin-bottom: 48px;
+}
+.header .header-sct .header-a {
+  width: 178px;
+  height: 60px;
+  background-color: #64a19d;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 200ms;
+}
+.header .header-sct .header-a a {
+  color: white;
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+.header .header-sct .header-a:hover {
+  background-color: #558985;
+}
+
+#bwb5 .bwb5-container {
+  height: 720px;
+  width: 100%;
+  padding-top: 160px;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#bwb5 .bwb5-container .bwb5-name {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+#bwb5 .bwb5-container .bwb5-name h2 {
+  font-weight: 400;
+}
+#bwb5 .bwb5-container .bwb5-info {
+  color: rgba(255, 255, 255, 0.5);
+  width: 700px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+#bwb5 .bwb5-container .bwb5-img {
+  max-width: 64%;
+  height: auto;
+}
+#bwb5 .bwb5-container .bwb5-img img {
+  vertical-align: middle;
+}
+
+.gallery {
+  width: 100%;
+  height: 1750px;
+}
+.gallery .shoreline {
+  width: 1224px;
+  height: 510px;
+}/*# sourceMappingURL=style.css.map */
